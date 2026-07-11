@@ -62,4 +62,4 @@ zipp==3.23.0 \
     --hash=sha256:071652d6115ed432f5ce1d34c336c0adfd6a884660d1e9712a256d3d3bd4b14e \
     --hash=sha256:a07157588a12518c9d4034df3fbbee09c814741a33ff63c05fa29d26a2404166
     # via importlib-metadata
-gunicorn==23.0.0 --hash=sha256:0c400d38950d04fd418cfe93282b8c8fd0bd51d3994a45c317908c4d
+gunicorn==23.0.0
