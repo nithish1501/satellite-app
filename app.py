@@ -12,7 +12,7 @@ USERNAME = "admin"
 PASSWORD = "1234"
 
 # CSV File Path
-df = pd.read_csv(r"C:\Users\anish\data\satellite_error_data.csv")
+df = pd.read_csv("satellite_error_data.csv")
 
 # Encode satellite_id
 le = LabelEncoder()
