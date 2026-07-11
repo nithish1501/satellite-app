@@ -7,7 +7,7 @@ from sklearn.preprocessing import LabelEncoder
 app = Flask(__name__)
 
 # CSV File Path
-df = pd.read_csv(r"C:\Users\anish\Downloads\satellite_error_data.csv")
+df = pd.read_csv(r"C:\Users\anish\data\satellite_error_data.csv")
 
 # Encode satellite_id
 le = LabelEncoder()
