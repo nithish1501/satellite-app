@@ -1,5 +1,4 @@
-
-
+guicorn app:app
 
 attrs==25.3.0 \
     --hash=sha256:427318ce031701fea540783410126f03899a97ffc6f61596ad581ac2e40e3bc3 \
