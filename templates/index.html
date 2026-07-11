@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Satellite Error Prediction</title>
+</head>
+<body>
+
+<h2>Satellite Error Prediction</h2>
+
+<form action="/predict" method="post">
+
+<label>Satellite ID</label><br>
+<input type="text" name="satellite" placeholder="G01" required><br><br>
+
+<label>Hour</label><br>
+<input type="number" name="hour" required><br><br>
+
+<label>Hours Since Upload</label><br>
+<input type="number" name="upload" required><br><br>
+
+<label>Clock Error (ns)</label><br>
+<input type="text" name="clock" required><br><br>
+
+<label>Ephemeris Error (m)</label><br>
+<input type="text" name="ephemeris" required><br><br>
+
+<input type="submit" value="Predict">
+
+</form>
+
+{% if prediction %}
+<h3>{{ prediction }}</h3>
+{% endif %}
+
+</body>
+</html>
