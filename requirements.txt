@@ -50,3 +50,4 @@ zipp==3.23.0 \
     --hash=sha256:a07157588a12518c9d4034df3fbbee09c814741a33ff63c05fa29d26a2404166
     
     gunicorn==23.0.0 --hash=sha256:ec400d38950de4dfd418cff8328b2c8faed0edb0d517d3394e457c317908ca4d
+   packaging==25.0
