@@ -8,7 +8,6 @@ app = Flask(__name__)
 
 # CSV File Path
 df = pd.read_csv(r"C:\Users\anish\data\satellite_error_data.csv")
-
 # Encode satellite_id
 le = LabelEncoder()
 df["satellite_id"] = le.fit_transform(df["satellite_id"])
